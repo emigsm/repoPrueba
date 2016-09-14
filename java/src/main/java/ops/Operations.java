@@ -1,6 +1,6 @@
-package java;
+package ops;
 
-public class operations {
+public class Operations {
 	
 public int sum(int a, int b){
 		

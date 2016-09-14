@@ -1,28 +1,30 @@
-package java;
+package ops;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class operationsTest {
+import ops.Operations;
+
+public class OperationsTest {
 
 	@Test
 	public void shouldBeTwoTest() {
-		operations operator = new operations();
+		Operations operator = new Operations();
 
 		assertEquals(operator.sum(1, 1), 2);
 	}
 	
 	@Test
 	public void shouldBeFourTest() {
-		operations operator = new operations();
+		Operations operator = new Operations();
 
 		assertEquals(operator.mult(2, 2), 4);
 	}
 	
 	@Test
 	public void shouldBeThreeTest() {
-		operations operator = new operations();
+		Operations operator = new Operations();
 
 		assertEquals(operator.sust(4, 1), 3);
 	}
