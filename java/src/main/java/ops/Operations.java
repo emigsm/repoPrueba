@@ -21,7 +21,7 @@ public class Operations {
 
 		if (b != 0) {
 
-			return a * b;
+			return a / b;
 
 		}
 
