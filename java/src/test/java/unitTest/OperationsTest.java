@@ -35,4 +35,11 @@ public class OperationsTest {
 
 		assertEquals(operator.div(4, 4), 1);
 	}
+	
+	@Test
+	public void shouldBeZeroTest() {
+		Operations operator = new Operations();
+
+		assertEquals(operator.div(4, 0), 0);
+	}
 }
